@@ -60,7 +60,7 @@ body::before {
 }
 
 .container__texto-azul {
-    color: #b336ec; 
+    color: #6616cf; 
     display: block;
 
 }
@@ -78,7 +78,7 @@ body::before {
     border-radius: 16px;
     background-color: #FFF;
     border: none;
-    color: #b336ec;
+    color: #6616cf;
     padding: 2rem;
     font-size: 24px;
     font-weight: 700;
@@ -93,7 +93,7 @@ body::before {
 
 .container__botao {
     border-radius: 16px;
-    background: #b336ec;
+    background: #6616cf;
     padding: 16px 24px;
     font-size: 24px;
     width: 100%;
@@ -112,6 +112,25 @@ body::before {
     border: none;
     cursor: not-allowed;
 }
+
+.container__botao-copiar {
+    border-radius: 16px;
+    background: #FFF;
+    color: #6616cf;
+    padding: 16px 24px;
+    margin-top: 10px;
+    font-size: 24px;
+    width: 100%;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.container__botao-copiar:active{
+    background: #6616cf;
+    color: #ffffff;
+ }
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
@@ -144,7 +163,7 @@ h1 {
 }
 
 #numeros__sorteados{
-    color: #b336ec;
+    color: #f8f8f8;
     text-shadow: 0.5vw 0.5vw 0.5vw #000, 0 0 1vw #39104d, 0 0 1vw #39104d, 0 0 1vw #39104d;
 }
 
